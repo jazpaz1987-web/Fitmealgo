@@ -275,9 +275,12 @@ font-size:32px;
 
 <body>
 
+<header>
 
+<div class="logo">
+FitMeal Go
 </div>
-    
+
 <nav>
 <a href="#problema">Problema</a>
 <a href="#valor">Solución</a>
@@ -417,7 +420,7 @@ style="max-width:900px;width:100%;border-radius:20px;">
 </div>
 
 
-
+<div class="grid" style="margin-top:40px;">
 <div class="card">
 <img src="BOWL SALUDABLE.jpg"
 style="width:100%;border-radius:15px;">
@@ -435,7 +438,10 @@ style="width:100%;border-radius:15px;">
 style="width:100%;border-radius:15px;">
 <h3 style="margin-top:15px;">Comida Saludable</h3>
 </div>
-    
+
+<h3 style="margin-top:15px;">Comida Saludable</h3>
+</div>
+
 </section>
 
 <section class="section fade" id="modelo">
