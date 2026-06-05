@@ -266,12 +266,24 @@ font-size:32px;
 }
 
 </style>
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    height:65px;
+    width:auto;
+    display:block;
+}  
 </head>
 
 <body>
 
 <header>
-<div class="logo">FitMeal Go</div>
+<div class="logo">
+    <img src="logo-fitmeal.png.jpg" alt="FitMeal Go">
+</div>
 
 <nav>
 <a href="#problema">Problema</a>
@@ -282,6 +294,9 @@ font-size:32px;
 </header>
 
 <section class="hero">
+background:
+linear-gradient(rgba(15,76,129,.75),rgba(30,136,229,.75)),
+url('banner promocional con el concepto.jpg');
 
 <div>
 <h1>FitMeal Go</h1>
@@ -302,6 +317,11 @@ Existe una oferta limitada de alimentos saludables listos para consumo
 en oficinas y hogares.
 </p>
 
+<img src="A TODA DISPONIBILIDAD.jpg"
+     alt="Disponibilidad"
+     style="width:100%;max-width:900px;border-radius:20px;display:block;margin:auto;">
+
+ 
 <div class="grid">
 
 <div class="card">
@@ -333,9 +353,16 @@ Necesitamos opciones frescas, rápidas y accesibles.
 <section class="section value-section fade" id="valor">
 
 <h2 class="title">Propuesta de Valor</h2>
-
+<div style="text-align:center;margin-bottom:40px;">
+    <img src="Combo Saludable FitMeal Go.png"
+         alt="Combo Saludable"
+         style="max-width:700px;width:100%;border-radius:20px;">
+</div>
 <p class="subtitle">
 Tecnología y salud al alcance de tu rutina.
+<img src="Refrigerador inteligente.png"
+     alt="Refrigerador Inteligente"
+     style="width:100%;max-width:700px;border-radius:20px;">
 </p>
 
 <div class="features">
@@ -370,6 +397,63 @@ Tecnología y salud al alcance de tu rutina.
 
 <section class="section fade" id="mercado">
 
+</section>
+
+<!-- NUESTROS COMBOS -->
+
+<section class="section fade">
+
+<h2 class="title">Nuestros Combos</h2>
+
+<p class="subtitle">
+Opciones saludables, rápidas y listas para consumir.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<img src="COMBO ENERGIA.jpg"
+     alt="Combo Energía"
+     style="width:100%;border-radius:15px;">
+
+<h3 style="margin-top:15px;">Combo Energía</h3>
+
+<p>Ideal para mantener energía durante la jornada.</p>
+</div>
+
+<div class="card">
+<img src="COMBO POWER.jpg"
+     alt="Combo Power"
+     style="width:100%;border-radius:15px;">
+
+<h3 style="margin-top:15px;">Combo Power</h3>
+
+<p>Mayor aporte nutricional para personas activas.</p>
+</div>
+
+<div class="card">
+<img src="VARIEDAD.jpg"
+     alt="Variedad Saludable"
+     style="width:100%;border-radius:15px;">
+
+<h3 style="margin-top:15px;">Variedad Saludable</h3>
+
+<p>Diferentes combinaciones de bowls, wraps y ensaladas.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- VALIDACIÓN DEL MERCADO -->
+<div style="text-align:center;margin-bottom:40px;">
+    <img src="cuatro segmentos de público objetivo de FitMeal Go.png"
+         alt="Público objetivo"
+         style="max-width:900px;width:100%;border-radius:20px;">
+</div>
+  
+<section class="section fade" id="mercado">
+  
 <h2 class="title">Validación del Mercado</h2>
 
 <div class="stats">
@@ -394,10 +478,24 @@ Tecnología y salud al alcance de tu rutina.
 <p>Ensaladas, Bowls y Wraps</p>
 </div>
 
-</div>
+ style="width:100%;border-radius:15px;">
+        <h3 style="margin-top:15px;">Bowls Saludables</h3>
+    </div>
 
-<div class="chart-box">
-<canvas id="marketChart"></canvas>
+    <div class="card">
+        <img src="ENSALADAS.jpg"
+             alt="Ensaladas Frescas"
+             style="width:100%;border-radius:15px;">
+        <h3 style="margin-top:15px;">Ensaladas Frescas</h3>
+    </div>
+
+    <div class="card">
+        <img src="COMIDA SALUDABLE.jpg"
+             alt="Comida Saludable"
+             style="width:100%;border-radius:15px;">
+        <h3 style="margin-top:15px;">Comida Saludable</h3>
+    </div>
+
 </div>
 
 </section>
